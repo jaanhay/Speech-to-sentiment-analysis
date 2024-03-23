@@ -1,0 +1,9 @@
+Flask
+scikit-learn
+tensorflow
+pandas
+numpy
+Flask-WTF
+Flask-CORS
+librosa
+soundfile
