@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h2 align="center" style="color:white; font-style: Serif;">Speech to Sentiment Analysis</h2>
+        <div id="whole">
+        <p style="color:white;font-size: 20px;">(upload .wav files)</p>
+        <div id="upload-div">
+        <form id="upload">
+            <input type="file" name="upload_f" accept=".wav" required />
+            <br/><br/>
+            <input type="submit" value="Submit" />
+         </form></div>
+         <h3 style="color:white; font-style: Serif; ">Prediction</h3>
+         <div id='prediction'></div></div>
+        <script src="/static/script.js" async defer></script>
+    </body>
+</html>
