@@ -17,6 +17,8 @@ The goal of this project is to allow users to input speech and receive sentiment
 - **HTML/CSS/JS**: Used for the frontend interface to capture user speech input and display sentiment analysis results.
 - **SpeechRecognition API**: Used to capture speech input from the user's browser.
 - **Machine Learning Models**: Used for both speech recognition and sentiment analysis. The exact models used can be specified here.
+## UI:
+<img width="399" alt="image" src="https://github.com/jaanhay/Speech-to-sentiment-analysis/assets/122115952/62abaed3-417a-44df-a462-c250d93f1189">
 
 ## Setup Instructions
 
